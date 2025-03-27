@@ -25,10 +25,11 @@ public class Main {
 
         System.out.println("\n===== Statistik Ruangan =====");
         System.out.println("Total Ruang Kelas         : " + RuangKelas.totalRuangKelas);
-        System.out.println("Total Lab Komputer        : " + LabKomputer.totalLabKomputer);
-        System.out.println("Total Lab Non-Komputer    : " + LabNonKomputer.totalLabNonKomputer);
         System.out.println("Total Ruang Departemen    : " + RuangDepartemen.totalRuangDepartemen);
         System.out.println("Total Ruang Dosen         : " + RuangDosen.totalRuangDosen);
+        System.out.println("Total Lab Komputer        : " + LabKomputer.totalLabKomputer);
+        System.out.println("Total Lab Non-Komputer    : " + LabNonKomputer.totalLabNonKomputer);
+        System.out.println("Total Laboratorium        : " + Laboratorium.totalLaboratorium);
         System.out.println("Total Semua Ruangan       : " + Ruang.totalRuangan);
     }
 }
