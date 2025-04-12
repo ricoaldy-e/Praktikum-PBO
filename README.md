@@ -1,1 +1,1 @@
-Rico Aldy Kusuma (24060123120041)
+Rico Aldy Kusuma / 24060123120041
