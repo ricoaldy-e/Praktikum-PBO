@@ -1,5 +1,5 @@
 /* Nama File    : MainAnabul.java */
-/* Deskripsi    : Class MainAnabul merupakan class utama untuk pemanggilan kelas lain */
+/* Deskripsi    : Class MainAnabul merupakan class utama untuk pemanggilan class lain */
 /* Pembuat      : Rico Aldy Kusuma / 24060123120041 */
 /* Tanggal      : 27 April 2025 */
 
