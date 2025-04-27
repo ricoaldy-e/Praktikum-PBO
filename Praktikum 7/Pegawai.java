@@ -7,10 +7,6 @@ public class Pegawai {
     private String nama;
     private int gajiPokok = 5000000;
 
-    public Pegawai() {
-        this.nama = "";
-    }
-
     public Pegawai(String nama, int gajiPokok) {
         this.nama = nama;
     }
