@@ -5,10 +5,6 @@
 
 public class Programmer extends Pegawai {
     private int bonus = 450000;
-    
-    public Programmer() {
-        super();
-    }
 
     public Programmer(String nama) {
         super(nama, 5000000);
