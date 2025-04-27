@@ -1,5 +1,5 @@
 /* Nama File    : TestPolimorfisme.java */
-/* Deskripsi    : Class TestPolimorfisme merupakan class utama untuk pemanggilan kelas lain */
+/* Deskripsi    : Class TestPolimorfisme merupakan class utama untuk pemanggilan class lain */
 /* Pembuat      : Rico Aldy Kusuma / 24060123120041 */
 /* Tanggal      : 27 April 2025 */
 
