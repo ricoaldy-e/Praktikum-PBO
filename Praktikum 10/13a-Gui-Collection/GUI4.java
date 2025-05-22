@@ -3,8 +3,6 @@
 // Tanggal  : 22 Mei 2025
 // File     : GUI4.java
 // Deskripsi: Program GUI Java untuk menyimpan, menampilkan, dan mengelola data menggunakan struktur List, Set, dan Map
-//            dilengkapi dengan fitur CRUD (Create, Read, Update, Delete) menggunakan JList dan tombol kontrol.
-
 
 import java.util.List;
 import java.util.ArrayList;
