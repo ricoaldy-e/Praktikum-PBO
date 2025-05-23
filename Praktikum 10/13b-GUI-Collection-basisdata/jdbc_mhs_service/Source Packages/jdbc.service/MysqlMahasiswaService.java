@@ -29,7 +29,6 @@ public class MysqlMahasiswaService {
         koneksi = MysqlUtility.getConnection();
     }
     
-      // Membuat objek mahasiswa dari ResultSet
     public Mahasiswa makeMhsObject(ResultSet rs) throws SQLException {
         Mahasiswa mhs = new Mahasiswa();
         mhs.setId(rs.getInt("id"));
@@ -37,7 +36,6 @@ public class MysqlMahasiswaService {
         return mhs;
     }
 
-    // Menambahkan data mahasiswa
     public void add(Mahasiswa mhs) {
         try {
             String sql = "INSERT INTO person (id, name) VALUES (?, ?)";
@@ -50,7 +48,6 @@ public class MysqlMahasiswaService {
         }
     }
 
-    // Update data mahasiswa
     public void update(Mahasiswa mhs) {
         try {
             String sql = "UPDATE mahasiswa SET nim=?, nama=?, prodi=? WHERE id=?";
@@ -60,7 +57,6 @@ public class MysqlMahasiswaService {
         }
     }
 
-    // Delete data mahasiswa
     public void delete(int id) {
         try {
             String sql = "DELETE FROM mahasiswa WHERE id=?";
@@ -72,7 +68,6 @@ public class MysqlMahasiswaService {
         }
     }
 
-    // Ambil mahasiswa berdasarkan ID
     public Mahasiswa getById(int id) {
         Mahasiswa mhs = null;
         try {
@@ -89,7 +84,6 @@ public class MysqlMahasiswaService {
         return mhs;
     }
 
-    // Ambil semua mahasiswa
     public List<Mahasiswa> getAll() {
         List<Mahasiswa> list = new ArrayList<>();
         try {
