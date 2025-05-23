@@ -16,11 +16,11 @@ package jdbc.model;
  * @author ricoa
  */
 public class Mahasiswa {
-    // atribut
+    // Atribut
     private int id;
     private String nama;
 
-    // Constructor
+    // Konstruktor
     public Mahasiswa() {
         this.id = 0;
         this.nama = "";
@@ -31,7 +31,7 @@ public class Mahasiswa {
         this.nama = nama;
     }
 
-    // getter and setter
+    // Getter dan Setter
     public int getId() {
         return id;
     }
