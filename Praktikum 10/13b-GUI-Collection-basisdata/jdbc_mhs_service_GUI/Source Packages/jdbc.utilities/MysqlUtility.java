@@ -21,9 +21,7 @@ public class MysqlUtility {
         if (koneksi == null) {
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver"); 
-                // Sesuaikan host, port, nama db
                 String url = "jdbc:mysql://localhost:3306/pbo";
-                // sesuaikan username dan password
                 String user = "root";
                 String password = "";
                 koneksi = DriverManager.getConnection(url, user, password);
