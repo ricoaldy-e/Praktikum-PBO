@@ -260,17 +260,13 @@ public class JFrameUtama extends javax.swing.JFrame {
 
     private void HapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HapusActionPerformed
         try {
-            // Ambil indeks yang dipilih
             int selectedIndex = jList1.getSelectedIndex();
             if (selectedIndex != -1) {
-                // Ambil ID dari model
                 String selectedIdStr = modelId.getElementAt(selectedIndex);
                 int selectedId = Integer.parseInt(selectedIdStr);
 
-                // Hapus dari database
                 service.delete(selectedId);
 
-                // Refresh tampilan
                 AmbilDataActionPerformed(null);
             }
         } catch (NumberFormatException e) {
@@ -287,9 +283,9 @@ public class JFrameUtama extends javax.swing.JFrame {
         Mahasiswa mhs = new Mahasiswa();
         mhs.setNama(nama);
 
-        service.add(mhs);               // simpan ke database
-        AmbilDataActionPerformed(null); // tampilkan ulang data
-        TextField.setText("");          // kosongkan field input
+        service.add(mhs);        
+        AmbilDataActionPerformed(null);
+        TextField.setText("");  
         System.out.println("Tambah: " + nama);
 
     }//GEN-LAST:event_AddActionPerformed
