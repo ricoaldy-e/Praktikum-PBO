@@ -3,7 +3,7 @@
  * NIM      : 24060123120041
  * Tanggal  : 2 Juni 2025
  * File     : LambdaMapMahasiswa.java
- * Deskripsi: Menampilkan key dan value dari Map (NIM dan nama mahasiswa)
+ * Deskripsi: Menampilkan key dan value dari Map (NIM dan Nama Mahasiswa)
  *            menggunakan ekspresi lambda (tanpa blok dan dengan blok statement).
  */
 
